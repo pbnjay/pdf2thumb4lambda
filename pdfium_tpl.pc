@@ -1,0 +1,11 @@
+## prefix=BASEDIR
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: PDFium
+Description: PDFium
+Version: 5092
+Requires:
+
+Libs: -L${libdir} -lpdfium
+Cflags: -I${includedir}
